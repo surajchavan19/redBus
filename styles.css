@@ -1,0 +1,313 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(200,88,91) ;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10px;
+
+
+
+}
+
+.navbar a {
+  float: right;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.show {
+  display: block;
+}
+
+
+
+.padding{
+background: url(https://st.redbus.in/Images/webplatform/rbdotcom/hero-bg.png);
+ background-size: cover;
+ height: 500px;
+ width: 100%;
+}
+
+
+.first-container{
+  background: url(https://st.redbus.in/Images/webplatform/rbdotcom/hero-fg_new.png) top center no-repeat;
+  position: relative;
+
+  pointer-events: none;
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+}
+
+.booking{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: rgb(237,237,237);
+  margin: 0;
+  border: 1px solid lightgrey;
+  font-weight: bold;
+
+}
+.margintop{
+margin-top: 0;
+padding-top: 3%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: auto;
+  border: 1px solid lightgrey;
+  padding-bottom: 5%;
+  background-color: rgb(255,255,255);
+
+
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imagemargin{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.imagemargin1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+
+.textsecond{
+
+  margin-left: 15px;
+    margin-right: 15px;
+    color: #737373;
+    font-size: 14px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+#awards{
+  /* margin-bottom: 10px; */
+border: 1px solid lightgrey;
+    text-align: center;
+    line-height: 1.7;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 390px;
+
+}
+.textawards{
+  margin-left: 15px;
+    margin-right: 15px;
+    color: #737373;
+    font-size: 14px;
+    letter-spacing:2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.4;
+    padding-top: 20px;
+    margin: 18px 0px;
+
+}
+
+.column2{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 390px;
+}
+
+#globalReach{
+
+      text-align: center;
+      padding-left: 12%;
+      padding-right: 12%;
+      background-color: rgb(237,237,237);
+      border: 1px solid lightgrey;
+      padding-bottom: 3%;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column4 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+#numbers{
+  text-align: center;
+  padding-left: 12%;
+  padding-right: 12%;
+border: 1px solid lightgrey;
+padding-bottom: 3%;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column5 {
+  flex: 33.33%;
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#about{
+  text-align: justify;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 13px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s2.rdbuz.com/web/images/home/sgp/aboutTravel.jpg);
+  /* background-image: url(https://s2.rdbuz.com/web/images/home/sgp/aboutTravel.jpg); */
+  /* filter: brightness( 60%); */
+  background-size: cover;
+  /* letter-spacing: 1.5px; */
+}
+.redfont{
+  color: rgb(200,88,91) !important;
+  font-size: 50px;
+
+}
+.greyfont{
+  color: rgb(121,121,121) !important;
+  font-weight: bold;
+}
+
+.white{
+  color: white !important;
+    text-decoration: none;
+}
+
+.column6{
+  flex:33.33%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+}
+.centertext{
+  text-align: center;
+}
+
+
+#routes{
+
+  font-size: 14px;
+  padding-left: 4%;
+  padding-right: 4%;
+  line-height: 2;
+
+
+}
+
+li a{
+  color: rgb(74,74,74);
+  text-decoration: none;
+}
+
+.column7{
+
+  padding-bottom: 2%;
+
+  padding-right: 5px;
+}
+
+footer{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 3%;
+  background-color: rgb(30,35,47);
+  color: white;
+  text-align: justify;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.column8{
+
+  padding-bottom: 2%;
+}
